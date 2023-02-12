@@ -28,4 +28,5 @@ for tr in soup.find_all("tr"):
         pass
 
 
-print(contents)
+# print(contents)
+print(pd.DataFrame(contents).head(5))
